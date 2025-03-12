@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "name": "Independence Day",
+    "description": "14 August celebrations",
+    "date": "2025-08-14",
+    "category": "Birthday"
+  },
+  {
+    "id": 3,
+    "name": "Doctor Appointment",
+    "description": "Checkup at Aga Khan Hospital",
+    "date": "2025-04-10",
+    "category": "Appointment"
+  }
+]
