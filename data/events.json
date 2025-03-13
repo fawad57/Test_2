@@ -16,5 +16,14 @@
     "category": "Appointments",
     "reminder": "2025-03-20T13:30:00Z",
     "id": 2
+  },
+  {
+    "name": "Doctor Appointment",
+    "description": "Annual health check-up",
+    "date": "2025-03-20",
+    "time": "02:00 PM",
+    "category": "Appointments",
+    "reminder": "2025-03-20T13:30:00Z",
+    "id": 3
   }
 ]
