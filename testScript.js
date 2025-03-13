@@ -11,11 +11,11 @@ console.log("Current Events:", getEvents());
 
 // Add a new event
 addEvent({
-  name: "Doctor Appointment",
-  description: "Annual health check-up",
-  date: "2025-03-20",
+  name: "Team Meeting",
+  description: "Monthly team sync-up",
+  date: "2025-03-15",
   time: "02:00 PM",
-  category: "Appointments",
+  category: "Meetings",
   reminder: "2025-03-20T13:30:00Z",
 });
 
