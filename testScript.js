@@ -4,7 +4,7 @@ const {
   getUpcomingEvents,
   authenticateUser,
   checkReminders,
-} = require("./events");
+} = require("./src/events");
 
 // Log current events
 console.log("Current Events:", getEvents());

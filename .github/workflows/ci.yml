@@ -1,5 +1,6 @@
-name: Node.js CI
+name: Run Tests
 
+# Trigger the workflow on push or pull request to the main branch
 on:
   push:
     branches:
@@ -10,19 +11,23 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      # Check out the repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
+      # Set up Node.js (replace '20.x' with your desired Node.js version)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "20.x"
 
+      # Install dependencies (if you have a package.json file)
       - name: Install dependencies
         run: npm install
 
-      - name: Run a basic Node.js script
-        run: node testScript.js
+      # Run the test script
+      - name: Run tests
+        run: node src/testScript.js
